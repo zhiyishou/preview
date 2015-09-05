@@ -1,6 +1,26 @@
-
 from PIL import Image
-# if the image is loaded, but the environment is not settled
 
-img = Image.open("./img/mao.jpg");
+def resizeImage(im, width, height):
+    originalW, originalH = im.size
+    originalRatio = originalW / originalH
+    ratio = width / height
 
+    newW, newH = int(width), int(height)
+
+    if (ratio > originalRatio):
+        newH = int(width / originalRatio)
+    else:
+        newW = int(width / originalRatio)
+
+    return im.resize((newW, newH), Image.ANTIALIAS)
+
+
+def loadImage(path):
+    try:
+        return Image.open(path)
+    except FileNotFoundError:
+        print("There is no such image exits.")
+
+if __name__ == "__main__":
+    img = loadImage("./img/mao.jpg")
+    resizeImage(img, 100, 100).save("./img/mao_new.jpg")
