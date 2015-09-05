@@ -7,13 +7,12 @@ def resizeImage(im, width, height):
 
     newW, newH = int(width), int(height)
 
-    if (ratio > originalRatio):
+    if (ratio < originalRatio):
         newH = int(width / originalRatio)
     else:
-        newW = int(width / originalRatio)
+        newW = int(height * originalRatio)
 
     return im.resize((newW, newH), Image.ANTIALIAS)
-
 
 def loadImage(path):
     try:
@@ -23,4 +22,6 @@ def loadImage(path):
 
 if __name__ == "__main__":
     img = loadImage("./img/mao.jpg")
-    resizeImage(img, 100, 100).save("./img/mao_new.jpg")
+    # print(len(list(resizeImage(img, 100, 100).getdata())))
+    img = resizeImage(img, 100, 100)
+    print(img.size)
