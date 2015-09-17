@@ -5,7 +5,7 @@ img = Image.resizeImage(img,100,100)
 
 data = img.getdata()
 dataList = list(data)
-len = len(dataList)
+length = len(dataList)
 colors = []
 
 # print(len(list(data)))
@@ -20,7 +20,7 @@ colors = []
 # print(img.size[0]*img.size[1])
 # print(colors)
 
-for i in range(0,len)
+for i in range(0,length):
     color = dataList[i]
 
     average = (color[0] + color[1] + color[2]) / 3
