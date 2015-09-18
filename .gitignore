@@ -9,7 +9,9 @@
 !/index.py
 !/draw.py
 !/setup.py
+!/handleargs.py
 
 !/resize.sh
+!/main.sh
 
 !.gitignore
