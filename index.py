@@ -2,8 +2,8 @@ from PIL import Image
 
 def resizeImage(im, width, height):
     originalW, originalH = im.size
-    originalRatio = originalW / originalH
-    ratio = width / height
+    originalRatio = originalW / float(originalH)
+    ratio = width / float(height)
 
     newW, newH = int(width), int(height)
 
