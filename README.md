@@ -22,3 +22,11 @@ Set a shortcut by running configure:
 ```
 
 Then, Enjoy it.
+
+example:
+
+```bash
+preview dog.jpg
+```
+
+![demo_mao](https://github.com/zhiyishou/preview/raw/master/img/dog_demo.jpg)
