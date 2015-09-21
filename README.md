@@ -7,18 +7,22 @@ A simple tool for shell, help us preview a picture in shell environment while we
 
 ###Demo:
 
-![demo_mao](https://raw.githubusercontent.com/zhiyishou/preview/master/img/mao_demo.jpg)
+![demo_mao](https://github.com/zhiyishou/preview/row/master/img/mao_demo.jpg)
 
-![demo_dog](https://raw.githubusercontent.com/zhiyishou/preview/master/img/dog_demo.jpg)
+![demo_dog](https://github.com/zhiyishou/preview/row/master/img/dog_demo.jpg)
 
 ###Usage:
 
 Clone this project from github:
 
-`git clone https://github.com/zhiyishou/preview.git`
+```bash
+git clone https://github.com/zhiyishou/preview.git`
+```
 
 Set a shortcut by running configure:
 
-`./configure`
+```bash
+./configure
+```
 
 Then, Enjoy it.
