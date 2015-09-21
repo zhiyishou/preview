@@ -7,7 +7,7 @@ A simple tool for shell, help us preview a picture in shell environment while we
 
 ![demo_mao](https://github.com/zhiyishou/preview/raw/master/img/mao_demo.jpg)
 
-###Usage:
+###Instillation:
 
 Clone this project from github:
 
@@ -23,7 +23,7 @@ Set a shortcut by running configure:
 
 Then, Enjoy it.
 
-example:
+##Usage:
 
 ```bash
 preview dog.jpg
