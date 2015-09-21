@@ -1,7 +1,5 @@
 ##preview
 
------
-
 A simple tool for shell, help us preview a picture in shell environment while we are connecting a remote server by ssh.
 
 
