@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python preview.py $1 `tput cols` `tput lines`
