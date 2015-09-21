@@ -7,9 +7,9 @@ A simple tool for shell, help us preview a picture in shell environment while we
 
 ###Demo:
 
-![demo_mao](https://github.com/zhiyishou/preview/row/master/img/mao_demo.jpg)
+![demo_mao](https://github.com/zhiyishou/preview/raw/master/img/mao_demo.jpg)
 
-![demo_dog](https://github.com/zhiyishou/preview/row/master/img/dog_demo.jpg)
+![demo_dog](https://github.com/zhiyishou/preview/raw/master/img/dog_demo.jpg)
 
 ###Usage:
 
