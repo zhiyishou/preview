@@ -1,3 +1,13 @@
 #!/bin/bash
 
-python preview.py $1 `tput cols` `tput lines`
+#read link if exits
+SOURCE="$0"
+while [ -h "$SOURCE"  ]; do
+    DIR="$( cd -P "$( dirname "$SOURCE"  )" && pwd  )"
+    SOURCE="$(readlink "$SOURCE")"
+
+    [[ $SOURCE != /*  ]] && SOURCE="$DIR/$SOURCE"
+done
+DIR="$( cd -P "$( dirname "$SOURCE"  )" && pwd  )"
+
+python $DIR/preview.py $1 `tput cols` `tput lines`
