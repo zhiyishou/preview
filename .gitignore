@@ -1,17 +1,12 @@
 /*
 
-!/urwid
-
 !/PIL
 
 !/img
+/img/*
+!/img/mao.jpg
 
-!/index.py
-!/draw.py
-!/setup.py
-!/handleargs.py
-
-!/resize.sh
-!/main.sh
+!/preview
+!/preview.py
 
 !.gitignore
