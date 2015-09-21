@@ -6,6 +6,8 @@
 !/img
 /img/*
 !/img/mao.jpg
+!/img/cat.jpg
+!/img/dog.jpg
 
 !/preview
 !/preview.py
