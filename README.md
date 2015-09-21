@@ -23,7 +23,7 @@ Set a shortcut by running configure:
 
 Then, Enjoy it.
 
-##Usage:
+###Usage:
 
 ```bash
 preview dog.jpg
