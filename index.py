@@ -12,7 +12,7 @@ def resizeImage(im, width, height):
     else:
         newW = int(height * originalRatio)
 
-    return im.resize((newW, newH), Image.ANTIALIAS)
+    return im.resize((newW*2, newH), Image.ANTIALIAS)
 
 def loadImage(path):
     try:
