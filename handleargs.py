@@ -15,6 +15,7 @@ data = img.getdata()
 dataList = list(data)
 length = len(dataList)
 colors = []
+chars = [" ",".","-","/","*","\"",">","\'","|","b","?","q","p","h","8","P","%","$","m","&","m","w","B","R","H","Q","W","M"]
 
 for i in range(0,length):
     color = dataList[i]
@@ -23,6 +24,6 @@ for i in range(0,length):
     colors.append(int(average))
 
 for i in range(0,len(colors)):
-    sys.stdout.write("00")
+    sys.stdout.write(chars[colors[i]/10])
     if((i+1) % img.size[0] == 0):
         sys.stdout.write("\n")
