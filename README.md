@@ -12,7 +12,7 @@ A simple tool for shell, help us preview a picture in shell environment while we
 Clone this project from github:
 
 ```bash
-git clone https://github.com/zhiyishou/preview.git`
+git clone https://github.com/zhiyishou/preview.git
 ```
 
 Set a shortcut by running configure:
