@@ -1,11 +1,5 @@
 /*
 
-!/PIL_Mac
-/PIL_Mac/*.pyc
-
-!/PIL_Linux
-/PIL_Linux/*.pyc
-
 !/img
 /img/*
 !/img/mao.jpg

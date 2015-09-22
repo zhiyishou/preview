@@ -1,11 +1,11 @@
 #!/bin/bash
 
+if [ `pip list | grep Pillow` == ""];then
+    pip install Pillow
+fi
+
 if [ `uname` == "Linux" ];then
-    mv PIL_Linux PIL
     sudo ln -s $PWD/preview /usr/local/bin/
 elif [ `uname` == "Darwin" ];then
-    mv PIL_Mac PIL
-    sudo ln -s $PWD/preview /usr/local/bin/
-else
-    echo "Sorry, This tool only work on Unix!"
+    ln -s $PWD/preview /usr/local/bin/
 fi
