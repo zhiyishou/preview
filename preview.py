@@ -3,11 +3,7 @@ import platform
 
 SYSTEMTYPE = platform.system()
 
-if SYSTEMTYPE == "Linux":
-    from PIL_Linux import Image
-elif SYSTEMTYPE == "Darwin":
-    from PIL_Mac import Image
-else:
+if SYSTEMTYPE != "Linux" and SYSTEMTYPE != "Darwin":
     print("This tool only work in Unix, sorry!")
     exit()
 
