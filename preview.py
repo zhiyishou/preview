@@ -7,6 +7,8 @@ if SYSTEMTYPE != "Linux" and SYSTEMTYPE != "Darwin":
     print("This tool only work in Unix, sorry!")
     exit()
 
+from PIL import Image
+
 def resizeImage(im, width, height):
     originalW, originalH = im.size
     originalRatio = originalW / float(originalH)
