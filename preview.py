@@ -63,11 +63,7 @@ def outputColors(colors, width):
 
 
 if __name__ == "__main__":
-    if (len(sys.argv) < 4):
-        print("lacking argvs of screen width and scrren height!")
-        exit()
-
-    if sys.argv[1] == "":
+    if len(sys.argv) < 4 or sys.argv[1] == "":
         print("please input img path as first argument!")
         exit()
 
