@@ -2,11 +2,9 @@
 
 if [ `uname` == "Linux" ];then
     mv PIL_Linux PIL
-    rm -rf PIL_Mac
     sudo ln -s $PWD/preview /usr/local/bin/
 elif [ `uname` == "Darwin" ];then
     mv PIL_Mac PIL
-    rm -rf PIL_Linux
     sudo ln -s $PWD/preview /usr/local/bin/
 else
     echo "Sorry, This tool only work on Unix!"
