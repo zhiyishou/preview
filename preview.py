@@ -1,6 +1,15 @@
-from PIL import Image
 import sys
+import platform
 
+SYSTEMTYPE = platform.system()
+
+if SYSTEMTYPE == "Linux":
+    from PIL_Linux import Image
+elif SYSTEMTYPE == "Darwin":
+    from PIL_Mac import Image
+else:
+    print("This tool only work in Unix, sorry!")
+    exit()
 
 def resizeImage(im, width, height):
     originalW, originalH = im.size
