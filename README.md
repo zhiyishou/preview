@@ -15,7 +15,7 @@ Clone this project from github:
 git clone https://github.com/zhiyishou/preview.git
 ```
 
-Set a shortcut by running configure:
+You need installed `pip` before for `Pillow` module installation, and set a shortcut by running configure:
 
 ```bash
 ./configure
