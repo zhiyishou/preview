@@ -1,6 +1,6 @@
 ##preview
 
-A simple tool for shell, help us preview a picture in shell environment while we are connecting a remote server by ssh.
+A simple tool for shell, help to preview a picture in shell environment while connecting a remote server by ssh.
 
 
 ###Demo:
